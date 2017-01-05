@@ -1,0 +1,13 @@
+{
+  "name": "colossus-getting-started",
+  "vendor": "vtex",
+  "version": "0.1.0",
+  "title": "Colossus Getting Started",
+  "description": "",
+  "mustUpdateAt": "2018-01-04",
+  "categories": [],
+  "settingsSxchema": {},
+  "dependencies": {
+    "infra:colossus": "0.x"
+  }
+}
