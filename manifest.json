@@ -6,7 +6,7 @@
   "description": "",
   "mustUpdateAt": "2018-01-04",
   "categories": [],
-  "settingsSxchema": {},
+  "settingsSchema": {},
   "dependencies": {
     "infra:colossus": "0.x"
   }
