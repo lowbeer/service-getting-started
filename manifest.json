@@ -8,6 +8,6 @@
   "categories": [],
   "settingsSchema": {},
   "dependencies": {
-    "infra:colossus": "0.x"
+    "infra:colossus-js": "0.x"
   }
 }
