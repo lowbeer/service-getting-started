@@ -5,7 +5,7 @@ A quick start app using the Colossus infra service.
 First, install the VTEX Toolbelt and login:
 
 ```bash
-$ npm i -g vtex@next
+$ npm i -g vtex
 $ vtex login
 ```
 
