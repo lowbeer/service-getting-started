@@ -9,6 +9,8 @@ $ npm i -g vtex
 $ vtex login
 ```
 
+Download this repo and open a terminal in its folder.
+
 Then, use `link` to start developing your app:
 
 ```bash
