@@ -1,9 +1,9 @@
 {
-  "name": "colossus-getting-started",
+  "name": "service-getting-started",
   "vendor": "vtex",
   "version": "0.1.0",
-  "title": "Colossus Getting Started",
-  "description": "",
+  "title": "Service Getting Started",
+  "description": "A hello world app using VTEX IO service",
   "mustUpdateAt": "2018-01-04",
   "categories": [],
   "settingsSchema": {},

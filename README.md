@@ -1,6 +1,6 @@
-# Colossus Getting Started
+# Service Getting Started
 
-A quick start app using the Colossus infra service.
+A quick start app using the service-js builder for building back end apps.
 
 First, install the VTEX Toolbelt and login:
 
@@ -19,4 +19,4 @@ $ vtex link
 
 Finally, access your endpoint at:
 
-http://colossus-getting-started.vtex.aws-us-east-1.vtex.io/{{account}}/{{workspace}}/hello
+http://service-getting-started.vtex.aws-us-east-1.vtex.io/{{account}}/{{workspace}}/hello
