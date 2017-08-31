@@ -1,8 +1,33 @@
+// service.json:
 {
-  "stack": "nodejs",
   "memory": 128,
-  "runtimeArgs": [
-    "--optimize_for_size",
-    "--max_old_space_size=96"
-  ]
+  "ttl": 5,
+  "stack": "nodejs",
+  "routes": {
+    "getBanana": {
+      "path": "/banana", // required
+      "methods": ["get"]
+      // private
+    },
+    "createBanana": {
+      "path": "/banana",
+      "methods": ["post"],
+      "public": false
+    },
+    "apple": {
+      "path": "/apple/:id",
+      // all methods
+      "public": true
+    }
+  },
+  "events": {
+    "onAppsEvent": {
+      "sender": "apps" // required
+      // keys: it's not required [*]
+    },
+    "onBundleReady": {
+      "sender": "vtex.render-builder",
+      "keys": ["bundle-ready"]
+    }
+  }
 }
