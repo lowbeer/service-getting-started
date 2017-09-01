@@ -1,29 +1,23 @@
-// service.json:
 {
   "memory": 128,
   "ttl": 5,
   "stack": "nodejs",
   "routes": {
     "getBanana": {
-      "path": "/banana", // required
-      "methods": ["get"]
-      // private
+      "path": "/banana"
     },
     "createBanana": {
       "path": "/banana",
-      "methods": ["post"],
       "public": false
     },
     "apple": {
       "path": "/apple/:id",
-      // all methods
       "public": true
     }
   },
   "events": {
     "onAppsEvent": {
-      "sender": "apps" // required
-      // keys: it's not required [*]
+      "sender": "apps"
     },
     "onBundleReady": {
       "sender": "vtex.render-builder",
