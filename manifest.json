@@ -4,11 +4,11 @@
   "version": "0.1.0",
   "title": "Getting Started with Service",
   "description": "A hello world app using VTEX IO service",
-  "mustUpdateAt": "2018-01-04",
   "categories": [],
   "settingsSchema": {},
-  "dependencies": {
-    "infra:colossus-js": "0.x"
+  "registries": ["smartcheckout"],
+  "builders": {
+    "service-js": "0.x"
   },
   "scripts": {
     "postreleasy": "vtex publish"

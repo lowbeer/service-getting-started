@@ -1,8 +1,8 @@
 {
   "stack": "nodejs",
-  "memory": 128,
+  "memory": 64,
   "runtimeArgs": [
     "--optimize_for_size",
-    "--max_old_space_size=96"
+    "--max_old_space_size=48"
   ]
 }
