@@ -1,12 +1,14 @@
 {
   "name": "service-getting-started",
   "vendor": "vtex",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "title": "Getting Started with Service",
   "description": "A hello world app using VTEX IO service",
   "categories": [],
   "settingsSchema": {},
-  "registries": ["smartcheckout"],
+  "registries": [
+    "smartcheckout"
+  ],
   "builders": {
     "service-js": "0.x"
   },
